@@ -30,7 +30,7 @@ streamlit run app.py
 | **shopiq.html** | ✅ Complete web app — open in browser, no install needed |
 | app.py | Original Streamlit UI |
 | data_processor.py | Python data cleaning module |
-| ai_analyzer.py | Python Claude API analyzer |
+| ai_analyzer.py | Python Groq API Key |
 | visualizer.py | Python Plotly charts |
 | generate_sample_data.py | Generate test Excel data |
 | sample_sales_data.xlsx | Sample data to test with |
@@ -71,7 +71,7 @@ The web app uses **Groq API** (already configured with API key).
 
 For the Python app, set your Anthropic API key:
 ```bash
-export ANTHROPIC_API_KEY=your_key_here
+export GROQ_API_KEY=your_key_here
 ```
 
 ---
